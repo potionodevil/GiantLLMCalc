@@ -1,0 +1,192 @@
+{
+ "date": "2026-11-17 15:38:45",
+ "temp_c_start": 53.85,
+ "create_write": {
+  "bytes": 8589934592,
+  "seconds": 19.2,
+  "GBps_incl_rng": 0.447,
+  "file_attrs": "---------------C------"
+ },
+ "span": [
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 713870,
+   "iops": 142770.3,
+   "GBps": 0.5848,
+   "lat_mean_us": 224.07,
+   "lat_p50_us": 195.58,
+   "lat_p99_us": 817.69,
+   "lat_p999_us": 1677.04,
+   "span": 268435456,
+   "rep": 0
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 676369,
+   "iops": 135271.1,
+   "GBps": 0.5541,
+   "lat_mean_us": 236.49,
+   "lat_p50_us": 199.8,
+   "lat_p99_us": 948.98,
+   "lat_p999_us": 1860.39,
+   "span": 1073741824,
+   "rep": 0
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 612795,
+   "iops": 122555.9,
+   "GBps": 0.502,
+   "lat_mean_us": 261.03,
+   "lat_p50_us": 239.83,
+   "lat_p99_us": 948.54,
+   "lat_p999_us": 1726.58,
+   "span": 4294967296,
+   "rep": 0
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 512616,
+   "iops": 102513.4,
+   "GBps": 0.4199,
+   "lat_mean_us": 312.02,
+   "lat_p50_us": 265.54,
+   "lat_p99_us": 1202.41,
+   "lat_p999_us": 2294.71,
+   "span": 8589934592,
+   "rep": 0
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 267428,
+   "iops": 53480.3,
+   "GBps": 0.2191,
+   "lat_mean_us": 598.19,
+   "lat_p50_us": 536.74,
+   "lat_p99_us": 1954.07,
+   "lat_p999_us": 4566.72,
+   "span": 268435456,
+   "rep": 1
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 294412,
+   "iops": 58877.3,
+   "GBps": 0.2412,
+   "lat_mean_us": 543.37,
+   "lat_p50_us": 487.72,
+   "lat_p99_us": 1936.92,
+   "lat_p999_us": 4368.93,
+   "span": 1073741824,
+   "rep": 1
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.0,
+   "ops": 382080,
+   "iops": 76413.2,
+   "GBps": 0.313,
+   "lat_mean_us": 418.65,
+   "lat_p50_us": 352.24,
+   "lat_p99_us": 1610.48,
+   "lat_p999_us": 4019.3,
+   "span": 4294967296,
+   "rep": 1
+  },
+  {
+   "mode": "rand",
+   "bs": 4096,
+   "qd": 32,
+   "seconds": 5.001,
+   "ops": 382536,
+   "iops": 76497.3,
+   "GBps": 0.3133,
+   "lat_mean_us": 418.16,
+   "lat_p50_us": 337.98,
+   "lat_p99_us": 1652.15,
+   "lat_p999_us": 3679.89,
+   "span": 8589934592,
+   "rep": 1
+  }
+ ],
+ "parallel": [
+  {
+   "procs": 1,
+   "bs": 4096,
+   "qd_each": 32,
+   "iops_total": 77032.4,
+   "GBps_total": 0.3155,
+   "lat_mean_us": 415.3
+  },
+  {
+   "procs": 2,
+   "bs": 4096,
+   "qd_each": 32,
+   "iops_total": 115350.0,
+   "GBps_total": 0.4725,
+   "lat_mean_us": 554.7
+  },
+  {
+   "procs": 4,
+   "bs": 4096,
+   "qd_each": 32,
+   "iops_total": 164531.6,
+   "GBps_total": 0.674,
+   "lat_mean_us": 777.8
+  },
+  {
+   "procs": 4,
+   "bs": 4096,
+   "qd_each": 8,
+   "iops_total": 134222.9,
+   "GBps_total": 0.5498,
+   "lat_mean_us": 238.3
+  },
+  {
+   "procs": 8,
+   "bs": 4096,
+   "qd_each": 16,
+   "iops_total": 157188.9,
+   "GBps_total": 0.644,
+   "lat_mean_us": 814.0
+  },
+  {
+   "procs": 1,
+   "bs": 65536,
+   "qd_each": 32,
+   "iops_total": 35194.5,
+   "GBps_total": 2.3065,
+   "lat_mean_us": 908.9
+  },
+  {
+   "procs": 4,
+   "bs": 65536,
+   "qd_each": 8,
+   "iops_total": 38895.0,
+   "GBps_total": 2.549,
+   "lat_mean_us": 822.4
+  }
+ ],
+ "test_file_deleted": true,
+ "temp_c_end": 59.85
+}
